@@ -267,13 +267,10 @@ fill: currentColor;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--primary-background-color);
-    background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/Img17.jpg);
+    background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/img17.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-title {
