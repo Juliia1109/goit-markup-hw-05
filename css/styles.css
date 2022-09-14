@@ -566,15 +566,11 @@ flex-wrap: wrap;
 margin: -15px;
 }
 
-.section-desc {
-    position: relative;
-    overflow: hidden;
-}
-
-.section-desc > .list-text {
+.list-text {
 position: absolute;
-top: 224px;
-padding: 27px 107px;
+bottom: 0;
+width: 100%;
+padding: 27px;
 font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.03em;
@@ -582,7 +578,10 @@ text-transform: uppercase;
 color: var(--primary-white-color);
 background-color: rgba(47, 48, 58, 0.8);
 text-align: center;
-white-space:nowrap;
+}
+
+.img-list-img {
+    position: relative;
 }
 
 /* footer */
@@ -727,7 +726,6 @@ font-weight: 700;
 .filter-button:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
-    cursor: pointer;
 }
 
 .filter-item .filter-button:hover,
